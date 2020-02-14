@@ -46,14 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="PageAccueil.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="PageAccueil.Designer.cs">
+      <DependentUpon>PageAccueil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PageClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PageClient.Designer.cs">
+      <DependentUpon>PageClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PageContact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PageContact.Designer.cs">
+      <DependentUpon>PageContact.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PageAccueil.resx">
+      <DependentUpon>PageAccueil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PageClient.resx">
+      <DependentUpon>PageClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PageContact.resx">
+      <DependentUpon>PageContact.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

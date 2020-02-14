@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace GestionClientTMB
 {
-    public partial class Form1 : Form
+    public partial class PageClient : Form
     {
-        public Form1()
+        public PageClient()
         {
             InitializeComponent();
         }
+
+        
     }
 }
