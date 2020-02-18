@@ -106,5 +106,12 @@ namespace GestionClientTMB
 
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Hide();
+            PageClient client = new PageClient();
+            client.Show();
+        }
     }
 }
